@@ -1,0 +1,33 @@
+
+.tipopiel{
+    width: 100%;
+    h4 {
+        width: 100%;
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+        text-align: center;
+        font-weight: 700;
+        padding: 10px 0 10px 30%;
+    
+    }
+    h5{
+        width: 100%;
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+        text-align: center; 
+        font-weight: 500;
+        padding: 10px 0 10px 30%;
+    }
+    p{
+        font-family: 'Montserrat', sans-serif;
+        text-align:center; 
+        font-weight: 400;
+        padding: 10px 0 10px 30%;
+        span{
+            font-family: 'Montserrat', sans-serif;
+            text-transform: uppercase;
+            font-weight: 600;
+            font-weight: bold;
+        }
+    }
+}

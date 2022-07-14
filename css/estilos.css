@@ -241,7 +241,7 @@ main .marca ul li a {
 .tipopiel {
   width: 100%;
 }
-.tipopiel h4 {
+.tipopiel h1 {
   width: 100%;
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
@@ -249,7 +249,7 @@ main .marca ul li a {
   font-weight: 700;
   padding: 10px 0 10px 30%;
 }
-.tipopiel h5 {
+.tipopiel h2 {
   width: 100%;
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;

@@ -44,6 +44,13 @@ header nav div a .logo {
   animation-duration: 1.5s;
 }
 
+.cuerpo div ul li a {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  text-decoration: none;
+}
+
 .cabecera {
   grid-area: header;
   border: solid 1px #c8c8c8;
@@ -184,13 +191,7 @@ main .form label {
 .cuerpo div ul li {
   padding: 5px 0 0 20px;
 }
-.cuerpo div ul li a {
-  font-family: "Montserrat", sans-serif;
-  text-transform: uppercase;
-  font-weight: 500;
-  text-decoration: none;
-}
-.cuerpo div ul .check {
+.cuerpo div ul li .check {
   font-family: "Montserrat", sans-serif;
   padding: 2px 0 2px 0;
 }
@@ -241,30 +242,27 @@ main .marca ul li a {
 .tipopiel {
   width: 100%;
 }
-.tipopiel h1 {
+.tipopiel h1, .tipopiel h2 {
   width: 100%;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat" sans-serif;
   text-transform: uppercase;
   text-align: center;
-  font-weight: 700;
   padding: 10px 0 10px 30%;
+}
+.tipopiel h1 {
+  font-weight: 600;
 }
 .tipopiel h2 {
-  width: 100%;
-  font-family: "Montserrat", sans-serif;
-  text-transform: uppercase;
-  text-align: center;
   font-weight: 500;
-  padding: 10px 0 10px 30%;
 }
 .tipopiel p {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat" sans-serif;
   text-align: center;
   font-weight: 400;
   padding: 10px 0 10px 30%;
 }
 .tipopiel p span {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat" sans-serif;
   text-transform: uppercase;
   font-weight: 600;
   font-weight: bold;

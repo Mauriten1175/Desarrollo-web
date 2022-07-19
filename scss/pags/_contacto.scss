@@ -7,9 +7,7 @@
     background-color: #fbe4ed;
     padding: 20px 0 0 20px;
     .titulocont{
-        font-family: 'Montserrat', sans-serif;
-        text-transform: uppercase;
-        text-align: center;
+        @include haches(center, uppercase,'Montserrat');
         
     }
 }
@@ -39,10 +37,8 @@ main{
     padding: 3% 0;
     background-color: #fbe4ed;
     h3{
-        text-align: center;
+        @include haches(center, uppercase,'Montserrat');
         padding: 10px;
-        font-family: 'Montserrat', sans-serif;
-        text-transform: uppercase;
         font-size: larger;
     }
     

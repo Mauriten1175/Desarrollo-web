@@ -149,9 +149,9 @@ footer {
   padding: 20px 0 0 20px;
 }
 .maincont .titulocont {
-  font-family: "Montserrat", sans-serif;
-  text-transform: uppercase;
   text-align: center;
+  text-transform: uppercase;
+  font-family: "Montserrat";
 }
 
 main div .titulocont {
@@ -175,9 +175,9 @@ main .form label {
 }
 .map h3 {
   text-align: center;
-  padding: 10px;
-  font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
+  font-family: "Montserrat";
+  padding: 10px;
   font-size: larger;
 }
 
@@ -185,7 +185,6 @@ main .form label {
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   font-weight: 600;
-  font-weight: bold;
   padding-left: 20px;
 }
 .cuerpo div ul li {
@@ -222,10 +221,10 @@ main .marca ul li a {
   grid-template-rows: 1fr;
 }
 .cuerpo .contenedor {
-  height: fit-content;
   display: flex;
-  justify-content: space-around;
   padding-top: 15px;
+  height: fit-content;
+  justify-content: space-around;
 }
 .cuerpo .contenedor .cards {
   height: fit-content;
